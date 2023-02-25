@@ -9,14 +9,12 @@ This repository contains code for testing optical endstops using both C++ and Py
 
 ## Files
 
-- `optical_endstops.cpp`: C++ file that demonstrates how to read signals from optical endstops
+- `optical_endstops.ino`: C++ file that demonstrates how to read signals from optical endstops
 - `test_optical_endstops.py`: Python file that uses Pyfirmata to test optical endstops
 
 ## Getting Started
 
-To run the C++ code, you will need a C++ compiler installed on your machine. You can compile the code using the following command:
-
-```g++ optical_endstops.cpp -o optical_endstops```
+To run the C++ code, you will need a C++ compiler installed on your machine or Use an Arduino Ide
 
 
 To run the Python code, you will need to install Pyfirmata. You can install it using pip:
